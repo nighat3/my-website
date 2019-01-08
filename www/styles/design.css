@@ -1,7 +1,8 @@
 .Page{
-  background-image: url("../images/back.png");
-  background-size: cover;
+  background: rgb(204,247,237);
+  background: linear-gradient(0deg, rgba(204,247,237,1) 1%, rgba(255,255,251,1) 38%);
 }
+
 body{
   text-align: center;
   display: flex;
@@ -388,7 +389,7 @@ textarea{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14pt;
   line-height: 33px;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 
 
 }
