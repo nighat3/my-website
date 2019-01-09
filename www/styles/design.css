@@ -1,11 +1,10 @@
 .Page{
   background: rgb(204,247,237);
-  background: linear-gradient(0deg, rgba(204,247,237,1) 1%, rgba(255,255,251,1) 38%);
+  background: linear-gradient(0deg, rgba(204,247,237,1) 1%, rgba(255,255,244,1) 50%);
 }
 
 body{
   text-align: center;
-  display: flex;
 
 }
 
@@ -20,7 +19,6 @@ body{
 main{
 
   margin: auto;
-  text-align: left;
 }
 /**headings**/
 h1{
@@ -133,6 +131,60 @@ a:hover{
   color: #7e0d17;
 }
 
+.logos{
+  padding-right: 160px;
+}
+
+#amex-pic{
+  width: 150px;
+  height: 150px;
+}
+
+#amex-pic:hover{
+  opacity: 0.5;
+
+}
+
+#thumo-pic {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+
+  }
+
+#thumo-pic:hover{
+    opacity: 0.4;
+
+  }
+
+#comp-pic {
+    width: 130px;
+    height: auto;
+  }
+
+#comp-pic:hover{
+    opacity: 0.5;
+
+  }
+
+#rock-pic {
+    width: 130px;
+    height: auto;
+  }
+
+#rock-pic:hover{
+    opacity: 0.5;
+    }
+
+#sub-pic {
+      width: 130px;
+      height: auto;
+      }
+
+#sub-pic:hover{
+      opacity: 0.5;
+
+      }
 #resume{
   background-color: rgb(156, 219, 100);
   font-family: 'Alegreya Sans SC', cursive;
@@ -150,8 +202,6 @@ a:hover{
   background-color: rgb(156, 219, 100);
   font-family: 'Alegreya Sans SC', cursive;
   font-size: 22px;
-  margin-left: 180px;
-  margin-top: 40px;
 
 }
 
@@ -159,7 +209,6 @@ a:hover{
   background-color: rgb(156, 219, 100);
   font-family: 'Alegreya Sans SC', cursive;
   font-size: 22px;
-  margin-left: 230px;
 
 }
 
@@ -167,8 +216,6 @@ a:hover{
   background-color: rgb(156, 219, 100);
   font-family: 'Alegreya Sans SC', cursive;
   font-size: 22px;
-  margin-left: 230px;
-  margin-top: 45px;
 
 }
 
@@ -357,6 +404,12 @@ form{
   margin-top: 40px;
   margin-left: 90px;
   margin-right: 50px;
+  text-align: left;
+}
+
+#workExp3{
+  display: inline-flex;
+  margin-left: 50px;
 }
 
 textarea{
@@ -439,12 +492,9 @@ textarea{
   text-align: center;
 }
 
-#big4{
-  margin-right: auto;
+.big4{
   text-align: center;
   justify-content: center;
-  display: inline-flex;
-  flex-direction: row;
 
 }
 
