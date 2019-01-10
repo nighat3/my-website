@@ -1,13 +1,12 @@
 .Page{
   background: rgb(204,247,237);
-  background: linear-gradient(0deg, rgba(204,247,237,1) 1%, rgba(255,255,244,1) 50%);
+  background: linear-gradient(0deg, rgba(204,247,237,1) 1%, rgba(253,255,247,1) 50%);
 }
 
 body{
   text-align: center;
 
 }
-
 
 .row {
   display: flex;
@@ -79,6 +78,7 @@ h4{
   text-align: left;
   margin-left: 30px;
   margin-bottom: 5px;
+  font-size: 13pt;
 }
 
 .tag2-amex{
@@ -87,6 +87,7 @@ h4{
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 30px;
+  font-size: 13pt;
 }
 /*NAV BAR */
 nav{
@@ -164,12 +165,13 @@ a:hover{
 
 
 .logos{
-  padding-right: 160px;
+  padding-right: 120px;
 }
 
 #amex-pic{
   width: 130px;
   height: 130px;
+  margin-bottom: 0px;
 
 }
 
@@ -182,6 +184,7 @@ a:hover{
     width: 130px;
     height: auto;
     margin-right: 20px;
+    margin-bottom: 0px;
 
   }
 
@@ -193,6 +196,7 @@ a:hover{
 #comp-pic {
     width: 110px;
     height: auto;
+    margin-bottom: 0px;
   }
 
 #comp-pic:hover{
@@ -203,6 +207,7 @@ a:hover{
 #rock-pic {
     width: 130px;
     height: auto;
+    margin-bottom: 0px;
   }
 
 #rock-pic:hover{
@@ -212,12 +217,26 @@ a:hover{
 #sub-pic {
       width: 130px;
       height: auto;
+      margin-bottom: 0px;
       }
 
 #sub-pic:hover{
       opacity: 0.5;
 
       }
+
+#brh-pic {
+      width: 150px;
+      height: auto;
+      overflow-x: hidden;
+      margin-bottom: 0px;
+      }
+
+#brh-pic:hover{
+      opacity: 0.5;
+
+      }
+
 #resume{
   background-color: rgb(156, 219, 100);
   font-family: 'Alegreya Sans SC', cursive;
@@ -462,7 +481,11 @@ form{
 
 #workExp3{
   display: inline-flex;
-  margin-left: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+
 }
 
 textarea{
@@ -581,8 +604,21 @@ textarea{
     font-family: 'Source Sans Pro', sans-serif;
     text-align: left;
     margin-left: 50px;
-    margin-right: 50px;
-    line-height: 30px;
+    max-width: 90%;
+    line-height: 35px;
+    font-size: 13pt;
+  }
+
+
+  .amex-paragraph2{
+    margin-top: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-left: 50px;
+    max-width: 90%;
+    line-height: 35px;
+    font-size: 13pt;
+    padding:10px;
   }
 
 
