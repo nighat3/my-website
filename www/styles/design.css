@@ -169,8 +169,8 @@ a:hover{
 }
 
 #amex-pic{
-  width: 130px;
-  height: 130px;
+  width: 300px;
+  height: 300px;
   margin-bottom: 0px;
 
 }
@@ -181,7 +181,7 @@ a:hover{
 }
 
 #thumo-pic {
-    width: 130px;
+    width: 300px;
     height: auto;
     margin-right: 20px;
     margin-bottom: 0px;
@@ -194,7 +194,7 @@ a:hover{
   }
 
 #comp-pic {
-    width: 110px;
+    width: 300px;
     height: auto;
     margin-bottom: 0px;
   }
@@ -205,7 +205,7 @@ a:hover{
   }
 
 #rock-pic {
-    width: 130px;
+    width: 300px;
     height: auto;
     margin-bottom: 0px;
   }
@@ -215,7 +215,7 @@ a:hover{
     }
 
 #sub-pic {
-      width: 130px;
+      width: 300px;
       height: auto;
       margin-bottom: 0px;
       }
@@ -226,7 +226,7 @@ a:hover{
       }
 
 #brh-pic {
-      width: 150px;
+      width: 300px;
       height: auto;
       overflow-x: hidden;
       margin-bottom: 0px;
@@ -327,8 +327,8 @@ img {
 }
 
 
-/*SIDENAV */
-.sidenav {
+/*SIDEBAR: used sidenav from W3Schools as a reference.  */
+.sidebar {
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   top: 40%; /* Stay at the top */
@@ -337,14 +337,6 @@ img {
   padding-top: 20px;
 }
 
-.sidenav2 {
-  width: 60px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  top: 0; /* Stay at the top */
-  right: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
 
 /* The navigation menu links */
 .sidenav a {
@@ -480,7 +472,7 @@ form{
 }
 
 #workExp3{
-  display: inline-flex;
+  display: block;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 10px;
@@ -621,6 +613,54 @@ textarea{
     padding:10px;
   }
 
+.pic-cards{
+  display: inline-flex;
+  flex-direction: row;
+}
+.pic1{
+  width: 300px;
+  height: 300px;
+}
+
+
+
+.slideshowButtonHolder {
+  text-align: center;
+  justify-content: center;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Next & previous buttons from W3schools.com*/
+.slideshowNextButton {
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #489ac8;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-user-select: none;
+
+}
+
+#next-button{
+  background-color: rgb(156, 219, 100);
+  font-family: 'Alegreya Sans SC', cursive;
+  font-size: 22px;
+}
+
+#slideshowimage{
+  width: 300px;
+  height: auto;
+}
+
+.slideshowimageholder{
+  padding-top:40px;
+}
 
 
 /**Media Queries: Tablet and Mobile Version**/
@@ -703,7 +743,7 @@ textarea{
 
   /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
   }
 }
