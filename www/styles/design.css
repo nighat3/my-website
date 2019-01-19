@@ -1,6 +1,5 @@
 .Page{
-  background: rgb(204,247,237);
-  background: linear-gradient(0deg, rgba(204,247,237,1) 1%, rgba(253,255,247,1) 50%);
+
 }
 
 body{
@@ -237,11 +236,16 @@ a:hover{
 
       }
 
-#resume{
+.resume{
   background-color: rgb(156, 219, 100);
   font-family: 'Alegreya Sans SC', cursive;
   font-size: 25px;
 
+}
+
+#about-rez{
+  text-align: right;
+  margin-left: 430px;
 }
 
 #resume:hover{
@@ -338,6 +342,15 @@ img {
 }
 
 
+.sidebar2 {
+  width: 160px; /* Set the width of the sidebar */
+  position: absolute;
+  right: 10%;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+
 /* The navigation menu links */
 .sidebar a {
   padding: 6px 8px 6px 16px;
@@ -347,8 +360,20 @@ img {
   display: block;
 }
 
+.sidebar2 a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 35px;
+  color: black;
+  display: block;
+}
+
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
+  color: rgb(156, 219, 100);
+}
+
+.sidebar2 a:hover {
   color: rgb(156, 219, 100);
 }
 
@@ -553,6 +578,7 @@ textarea{
   line-height: 38px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 20px;
+  margin-bottom: 0px;
 }
 
 #big3{
@@ -566,7 +592,7 @@ textarea{
 
 }
 
-#closing{
+.closing{
   margin-top: 100px;
   margin-bottom: 10px;
   justify-content: center;
@@ -602,14 +628,39 @@ textarea{
   }
 
 
-  .amex-paragraph2{
+  .work-paragraph{
     margin-top: 40px;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    margin-left: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
     max-width: 90%;
-    line-height: 35px;
-    font-size: 13pt;
+    line-height: 40px;
+    font-size: 15pt;
+    padding:10px;
+  }
+
+  .amex-para{
+    margin-top: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    max-width: 90%;
+    line-height: 40px;
+    font-size: 15pt;
+    padding:10px;
+  }
+
+  .thumo-para{
+    margin-top: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    max-width: 90%;
+    line-height: 40px;
+    font-size: 15pt;
     padding:10px;
   }
 
@@ -632,7 +683,7 @@ textarea{
   margin-right: auto;
 }
 
-/* Next & previous buttons from W3schools.com*/
+
 .slideshowNextButton {
   cursor: pointer;
   position: absolute;
@@ -653,9 +704,16 @@ textarea{
   font-size: 22px;
 }
 
+#next-button:hover{
+  color: black;
+  background-color: rgb(238, 238, 238);
+  cursor: pointer;
+}
+
+
 #slideshowimage{
-  width: 300px;
-  height: auto;
+  height: 300px;
+  width: auto;
 }
 
 .slideshowimageholder{

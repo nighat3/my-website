@@ -27,6 +27,9 @@
 
   <script src="scripts/slideShow.js" type="text/javascript">
   </script>
+
+  <script src="scripts/clicks.js" type="text/javascript">
+  </script>
 </head>
 
 <body>
@@ -73,21 +76,9 @@
 <!-- Slideshow Code Adapted From Lab 12-->
 <div class = "mainContent">
 
-  <p id = "work-desc" class = "amex-paragraph2">
-  As a college student still determining her path, I prize learning opportunities outside the classroom
-  that help me formulate and understand my career goals.
-  Through internships and on-campus involvement, I have the opportunity to practically apply classroom
-  concepts to impactful projects and learn how the industry utilizies my talents. Having worked in
-  large-scale companies as well as student-run organizations, I have sharpened a variety of skills in
-  computer science, programming, web-development, data science, product management, business, and tech
-  leadership.
-
-
-</p>]
-  <!-- Next and previous buttons from Lab 12-->
   <div class="slideshowButtonHolder">
-    <div id="slideshowNext" class="slideshowNextButton">
-      <a id = "next-button">Next &gt;</a>
+    <div id="slideshowNext" class="sidebar2">
+      <button type = "button" id = "next-button"> &gt;&gt;</a>
     </div>
 
   </div>
@@ -98,8 +89,151 @@
     </div>
   </div>
 
+<div id = "work-intro">
+  <p id = "work-desc" class = "work-paragraph">
+  As a college student still determining her path, I draw career inspiration from the
+  work and projects I partake in outside the classroom. Gone are the days when interns
+  brought superiors coffee and made them copies. From my very first summer internship to
+  my final one, I have been given the same work environment and (perhaps more) resources
+  as full-time employees to thrive at a company and understand how the industry
+  utilizes my talents. Every summer brings with it new challenges, but also a chance to
+  develop new skills and hone older ones.
 
+</p>
 
+<p class = "work-paragraph">
+  During every semester, I strive to be involved in at least three organizations
+  that each offer me something unique. This semester, I was President of the Cornell Student
+  Union Board, a web-developer on the Cornell Rocketry Project Team, and the Sponsorship Lead
+  on Cornell Big Red//Hacks, a student-run hackathon. Whether I am developing myself as a leader,
+  a businesswoman or a programmer, my involvement outside the classroom helps me connect my personal
+  interests to my professional goals.
+</p>
+<p class = "work-paragraph">
+Scroll through the following logos to learn more about what I have worked on in the following organizations.
+</p>
+
+</div>
+
+<div id = "amex-container">
+  <p class = "hidden amex-para">
+  Incoming Digital Product Managemnet Intern at American Express Co., New York City, NY.
+  </p>
+  <button class = "learn-buttons" id = "amex-learn" type = "button"> Learn More </button>
+  <p class = "hidden amex-para2">
+    More to come in Summer 2019!
+  </p>
+
+</div>
+
+<div id = "thumo-container">
+<p class =  "thumo-para">
+  As an IT Leadership intern for Thermo Fisher Scientific this summer, I expanded
+  upon many software, data analytics, and leadership skills. After my first month
+  at the company, I discovered an opportunity for Thermo Fisher to improve communication
+      amongst employees across the company's many sites. The IT Team was being overloaded
+      with Service Now requests while employees had to wait weeks before someone from IT
+      could help them.
+
+</p>
+<button class = "learn-buttons" id = "thumo-learn" type = "button"> Learn More </button>
+<p class = "hidden thumo-para2">
+  I designed and implemented a web-application in the Office 365
+        environment that allows employees to better leverage the diverse skill sets that exist
+        within the company when they run into common issues. When employees have issues with
+        using a certain software, their devices, or need consultation on specific areas of
+        expertise (project management, for example), they can look employees up by name,
+        location, or skill in this application. Once they find an employee they want to
+        reach out, the applications connects the two and documents the requests employees
+        needed assistance with. I am working to modify and polish this application to integrate
+        PostgreSQL and Python to more efficiently document, access, and store large data. This
+        application can help the company figure out how to move internal processes faster and
+        pinpoint where common difficulties occur. The Director of IT would like me to continue
+        building this application so that Thermo Fisher IT can implement it in the future.
+</p>
+
+<p class = "hidden thumo-para2">
+  In addition to this independent project, I co-led the IT Standard Processes Project with
+      my manager. This project focused on restructuring processes within IT through
+      standardization and aimed to better serve customers through a more unified internal approach.
+      Collaborating with IT managers across Thermo Fisher's sites, I defined what data to collect to
+      identify what to standardize. I then manipulated, extracted, and transformed the data using
+      tools like PowerBI, SQL databases and SharpCloud to present the cleaned data in regular meetings.
+
+</p>
+</div>
+
+<div id = "comp-container">
+<p class = "comp-para">
+  As a software Intern with the Risk Management Team, my primary role was to work
+with the MIT Safari Project, a situational-awareness program written by MIT PhD
+candidates in Python. I learned how to work within an Ubuntu environment of a
+Linux PC and how to use Guake Terminal to launch the program and its many servers.
+Although a valuable tool, the project was out of use due to errors in code and
+changing/misplacing of file locations and folders and my task was to get it running
+again as the candidates who wrote it were no longer at MIT.
+
+</p>
+<button class = "learn-buttons" id = "comp-learn" type = "button"> Learn More </button>
+<p class = "hidden comp-para2">
+  Over three months, I
+  used the debugging console and expanded my knowledge of Python by trying to fix the
+  several components of the project. I made use of Python documentation to address errors
+  I had little knowledge of and wrote a guide that office members with little to no
+  coding experience could use to launch the program and its servers.</p>
+
+<p class = "hidden comp-para2">
+  In addition to this project, I also completed an independent project in which I
+      implemented a K-means clustering tool for enhanced data analytics and presented it
+      to upper management. I integrated it with Tableau, a visualization tool, to simplify
+      k-means clustering for those I was presenting to and showed them how they could extend
+      the functionality of simple tools by embedding code in them.
+</p>
+
+</div>
+
+<div id = "rock-container">
+<p class = "rock-para">
+  As a web-developer for the Cornell Rocketry Project Team, I help design and maintain the Cornell Rocketry Team website using HTML, CSS, PHP, Hostgator, XAMP, and Github. In addition to the website, my team and I design internal web tools for the Team Leadership to store data such as documentation and important information for future team members. Currently, we are working on creating a tool that allows the Team Leads to record all new applicants' applications, interviews, and preferences for what projects they want to work on.
+</p>
+
+<button class = "learn-buttons" id = "rock-learn" type = "button"> Learn More </button>
+
+<p class = "hidden rock-para2">
+  This semester, I am working on structuring and hosting the Team Website using a node.js framework. The current
+  website relies primarily HTML and CSS, and internal tools rely on PHP. I hope to teach myself how to leverage
+  node.js and other frameworks such as vue.js and express.js to create faster and more "light-weight"
+  website and internal tools.
+</p>
+
+<div id = "sub-container">
+  <p class = "sub-para">
+    As President of the Cornell Student Union Board, I head Cornell's on-campus Student Union. I am working to re-brand the organization to have improved retention, a well-managed budget, and increased campus presence. In this role, I have gained experience in leading a group of students and maintaining business partnerships with other organizations regularly. Working with the Cornell Student Assembly, I devise and use a budget of nearly $60,000 annually to promote student interests through events.
+</p>
+
+<p class = "hidden sub-para">
+  I help finance campus groups and market numerous events with them during the semester. We also partner with the Cornell Administration to help raise awareness about common student-life concerns such as mental-health, AIDS-awareness, and voting in elections. This position teaches me the importance of taking initiatives and understanding how to use leverage different skills within a team to achieve an end result. It is indeed a very significant role to me as it will help me leave a positive legacy on the campus and student body that surround me.
+</p>
+<p class = "hidden sub-para">
+Although not directly relevant to my technical major, being one of SUB's most successful recent
+presidents has been crucial to shaping how I think as a person. I learned how to balance diplomacy
+with being opinionated, authoritativeness with being friendly, and ambition with being a realist.
+Perhaps most importantly, I learned how to pioneer <em> change </em> and make it a reality despite
+facing obstacles and constraints at every step.
+
+</p>
+<a id = "to-passions" href = "interests.html">More</a>
+</div>
+
+<div id = "brh-container">
+  <p class = "brh-para">
+    As the sponsorship lead, I head the effort to finance the Big Red//Hacks Hackathon, Cornell
+    University's largest student-run hackathon. I communicated with and successfully signed on
+    Wayfair as the official co-sponsor of the Fall 2018 Hackathon. My other duties include promoting
+    the Hackathon to new frontiers (including various other schools and companies) and engaging the
+    hacker community through various events.
+</p>
+</div>
 
       <div>
         <p id = "closing">
